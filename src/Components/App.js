@@ -26,8 +26,6 @@ function App() {
   }
 
   const dataHandle = async (newData) => {
-    // console.log(newData);
-
     const response = await api.post('/contacts',newData);
     console.log(response.data);
     getContacts();
