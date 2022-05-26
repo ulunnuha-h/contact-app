@@ -9,7 +9,6 @@ const Pro=(props)=>{
             proData = element;
         }
     });
-    // console.log(props.data[0].id);
     return (
             <div className="bg-white p-5 m-auto mt-5 w-50">
                 <Link to="/"><i class="fa-solid fa-arrow-left m-3"></i></Link>
