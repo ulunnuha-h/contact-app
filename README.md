@@ -1,2 +1,2 @@
-# Contact App
+# contact-app
 using reactjs
